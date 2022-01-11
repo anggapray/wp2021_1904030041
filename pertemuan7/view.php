@@ -81,12 +81,11 @@ include 'koneksi.php';
           <?php while ($camaba = mysqli_fetch_array($result)){ ?>
             <tr>
               <th scope="row"><?php echo $no ?></th>
-              <td><?php echo $camaba[1]; ?></td>
-              <td><?php echo $camaba[2]; ?></td>
-              <td><?php echo $camaba[3]; ?></td>
-              <td><?php echo $camaba[4]; ?></td>
-              <td><?php echo $camaba[5]; ?></td>
-              <td><?php echo $camaba[6]; ?></td>
+              <td><?php echo $camaba['nama']; ?></td>
+              <td><?php echo $camaba['alamat']; ?></td>
+              <td><?php echo $camaba['jenis_kelamin']; ?></td>
+              <td><?php echo $camaba['agama']; ?></td>
+              <td><?php echo $camaba['sekolah_asal']; ?></td>
               <td><img src="image/foto1.jpg" width="100px"></td>
               <td><i class="fas fa-edit"></i> || <i class="fas fa-trash"></i></td>
             </tr>
