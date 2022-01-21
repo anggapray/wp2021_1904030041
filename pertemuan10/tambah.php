@@ -85,37 +85,37 @@ if (isset($_POST['tambah'])) {
       </ul>
     </div>
     <div class="col-md-10 mt-4 p-5 pr-3 pt-4">
-      <!-- konten -->
-      <h3><i class="fas fa-users"></i> Input data Calon Mahasiswa </h3>
-      <hr>
+      < !-- konten -->
+        <h3><i class="fas fa-users"></i> Input data Calon Mahasiswa </h3>
+        <hr>
 
-      <form method="POST" action="">
-        <div class="form-group">
-          <label for="nama">Nama : </label>
-          <input type="text" class="form-control" id="nama" placeholder="nama lengkap" name="nama" autofocus required autocomplete="off">
-        </div>
-        <div class="form-group">
-          <label for="alamat">alamat : </label>
-          <input type="text" class="form-control" id="alamat" placeholder="alamat lengkap" name="alamat" required autocomplete="off">
-        </div>
-        <div class="form-group">
-          <label for="jenis_kelamin">jenis kelamin : </label>
-          <input type="text" class="form-control" id="jenis_kelamin" placeholder="jenis kelamin" name="jenis_kelamin" required autocomplete="off">
-        </div>
-        <div class="form-group">
-          <label for="agama">Agama : </label>
-          <input type="text" class="form-control" id="agama" placeholder="agama anda" name="agama" required autocomplete="off">
-        </div>
-        <div class="form-group">
-          <label for="sekolah_asal">sekolah asal : </label>
-          <input type="text" class="form-control" id="sekolah_asal" placeholder="sekolah asalmu" name="sekolah_asal" required autocomplete="off">
-        </div>
-        <div class="form-group">
-          <label for="foto_maba">foto : </label>
-          <input type="text" class="form-control" id="foto_maba" placeholder="input foto anda" name="foto_maba" required autocomplete="off">
-        </div>
-        <button type="submit" class="btn btn-primary" name="tambah">Simpan</button>
-      </form>
+        <form method="POST" action="">
+          <div class="form-group">
+            <label for="nama">Nama : </label>
+            <input type="text" class="form-control" id="nama" placeholder="nama lengkap" name="nama" autofocus required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="alamat">alamat : </label>
+            <input type="text" class="form-control" id="alamat" placeholder="alamat lengkap" name="alamat" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="jenis_kelamin">jenis kelamin : </label>
+            <input type="text" class="form-control" id="jenis_kelamin" placeholder="jenis kelamin" name="jenis_kelamin" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="agama">Agama : </label>
+            <input type="text" class="form-control" id="agama" placeholder="agama anda" name="agama" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="sekolah_asal">sekolah asal : </label>
+            <input type="text" class="form-control" id="sekolah_asal" placeholder="sekolah asalmu" name="sekolah_asal" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="foto_maba">foto : </label>
+            <input type="text" class="form-control" id="foto_maba" placeholder="input foto anda" name="foto_maba" required autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-primary" name="tambah">Simpan</button>
+        </form>
 
 
     </div>
